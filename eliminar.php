@@ -8,7 +8,7 @@ $consulta_bd = "DELETE FROM tbl_equipos WHERE id = $id";
 $consultaGeneral = mysqli_query($mysqlConnexion, $consulta_bd);
 
 if($consultaGeneral){
-    header("Location: partials/admon.php");
+    header("Location: admon.php");
 }else{
     echo ("No se eliminó el elemento");
 }

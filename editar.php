@@ -21,7 +21,7 @@ if(isset($_POST['actualizar'])) {
 
    $consulta_bd = "UPDATE tbl_equipos SET nombre = '$nombre' ,rama = '$rama' , categoria = '$categoria' WHERE id = $id";
    $consultaGeneral = mysqli_query($mysqlConnexion, $consulta_bd);
-   header("Location: partials/admon.php");
+   header("Location: admon.php");
 
 }else{
     //echo ("No se actualizó el elemento");
@@ -30,7 +30,7 @@ if(isset($_POST['actualizar'])) {
 ?>
 
 <?php
-include ("partials/header.php");
+include ("header.php");
 ?>
 
 <div class="container p-4 ">
@@ -59,7 +59,7 @@ include ("partials/header.php");
 <input type="submit" class="btn btn-primary btn-block" name="actualizar" value="Actualizar">
 
 </form> <br>
-<a href="partials/admon.php"><-- Regresar a la tabla general</a>
+<a href="admon.php"><-- Regresar a la tabla general</a>
 
 </div>
 
@@ -71,5 +71,5 @@ include ("partials/header.php");
 
 
 <?php
-include ("partials/body.php");
+include ("body.php");
 ?>

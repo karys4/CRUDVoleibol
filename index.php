@@ -3,7 +3,7 @@ include ("conexion.php");
 ?>
 
 <?php
-include ("partials/header.php");
+include ("header.php");
 ?>
 
 <div class="container p-4 ">
@@ -41,7 +41,7 @@ include ("partials/header.php");
 </div>
 
 <?php
-include ("partials/body.php");
+include ("body.php");
 ?>
 
 

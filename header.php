@@ -17,8 +17,8 @@
 <!--Barra de navegación (Menú)-->
  <nav class="navbar navbar-light" style="background-color: #504F53;">
  <div class="container">
- <a class="navbar-brand" href="#">
-        <img  style="width: 100px" src="imagenes/volyLogo.png" alt=" logo"  >
- <a href="index.php" class="navbar-brand">Iniciar Sesión</a>
+ <a class="navbar-brand" href="index.php">
+        <img  style="width: 100px" src="volyLogo.png" alt=" logo"  >
+ <a href="admon.php" class="navbar-brand ">Administrador</a>
  </div>
  </nav>

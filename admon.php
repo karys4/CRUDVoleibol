@@ -1,5 +1,5 @@
 <?php
-include ("../conexion.php");
+include ("conexion.php");
 ?>
 
 <?php
@@ -36,12 +36,12 @@ while($fila = mysqli_fetch_array($infoEquipos)) { ?>
         
    </td>-->
    <td>
-        <a href="../editar.php?id=<?php echo $fila['id']?>" class="fas fa-edit" title="Editar"></a>
+        <a href="editar.php?id=<?php echo $fila['id']?>" class="fas fa-edit" title="Editar"></a>
         
    </td>
    <td>
        
-        <a href="../eliminar.php?id=<?php echo $fila['id']?>" class="fas fa-trash-alt" title="Eliminar"></a>
+        <a href="eliminar.php?id=<?php echo $fila['id']?>" class="fas fa-trash-alt" title="Eliminar"></a>
    </td>
 </tr>
 
