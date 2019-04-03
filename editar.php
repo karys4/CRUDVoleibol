@@ -48,13 +48,24 @@ include ("header.php");
 
 <div class="form-group">
     <label for="rama">Rama:</label>
-    <input type="text" name="rama" value="<?php echo $rama;?>" class="form-control" required>
+    <select name="rama" value="<?php echo $rama;?>" class="form-control" required>
+    <option value="Femenil">Femenil</option>
+    <option value="Varonil">Varonil</option>
+    </select>
+    <!--<input type="text" name="rama" class="form-control" required>-->
 </div>
 
 <div class="form-group">
     <label for="categoria">Categoría:</label>
-    <input type="text" name="categoria" value="<?php echo $categoria;?>" class="form-control" required>
+    <select name="categoria" value="<?php echo $categoria;?>" class="form-control" required>
+    <option value="Primera">Primera</option>
+    <option value="Segunda">Segunda</option>
+    <option value="Intermedia">Intermedia</option>
+    </select>
+
+    <!--<input type="text" name="categoria" class="form-control" required>-->
 </div>
+
 
 <input type="submit" class="btn btn-primary btn-block" name="actualizar" value="Actualizar">
 
